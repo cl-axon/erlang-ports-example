@@ -1,4 +1,4 @@
-(defsystem "echo"
+(defsystem "erlang-echo"
   :version "0.1.0"
   :author "Duncan McGreggor <oubiwann@gmail.com>"
   :license "BSD-2"
@@ -12,4 +12,4 @@
                  (:file "echo-protocol")
                  (:file "echo"))))
   :description "Echo: An Erlang Port Axample Application"
-  :in-order-to ((test-op (test-op "echo-test"))))
+  :in-order-to ((test-op (test-op "erlang-echo-test"))))

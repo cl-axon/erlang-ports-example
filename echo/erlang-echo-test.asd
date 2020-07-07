@@ -1,8 +1,8 @@
-(defsystem "echo-test"
+(defsystem "erlang-echo-test"
   :defsystem-depends-on ("prove-asdf")
   :author "Duncan McGreggor <oubiwann@gmail.com>"
   :license "BSD-2"
-  :depends-on ("echo"
+  :depends-on ("erlang-echo"
                "prove")
   :components ((:module "tests"
                 :components

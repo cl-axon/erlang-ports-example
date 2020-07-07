@@ -1,8 +1,8 @@
 ;; #!/opt/local/bin/sbcl --script
 
 (load "~/quicklisp/setup.lisp")
-(ql:system-apropos :echo)
-(ql:quickload :echo :silent t)
+(ql:system-apropos :erlang-echo)
+(ql:quickload :erlang-echo :silent t)
 
 (defun main ()
   (echo:setup-app)

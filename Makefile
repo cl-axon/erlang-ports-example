@@ -1,3 +1,5 @@
+default: build
+
 build:
 	@cd echo && $(MAKE) build
 
