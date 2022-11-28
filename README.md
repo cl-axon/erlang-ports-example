@@ -1,4 +1,4 @@
-# erlang-port-examples
+# erlang-port-example
 
 ## Usage
 
